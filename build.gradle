@@ -2,16 +2,16 @@
 
 buildscript {
     ext.versions = [
-            'compileSdk'         : 28,
-            'minSdk'             : 15,
-            'targetSdk'          : 28,
-            'androidGradlePlugin': '3.2.0',
+            'compileSdk'         : 31,
+            'minSdk'             : 21,
+            'targetSdk'          : 31,
+            'androidGradlePlugin': '7.0.4',
             'bintrayRelease'     : '0.5.0',
     ]
 
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 
     dependencies {
@@ -27,6 +27,6 @@ allprojects {
 
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 }
