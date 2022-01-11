@@ -45,8 +45,10 @@ afterEvaluate{
     publishing {
         publications {
             mavenAar(MavenPublication){
+                artifactId = POM_ARTIFACT_ID
                 from components.release
             }
+
         }
 
         repositories {
